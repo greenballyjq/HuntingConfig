@@ -1,5 +1,5 @@
 set WORKSPACE=..
-set CLIENT_ASSETS=%WORKSPACE%\HuntingClient\Assets
+set CLIENT_ASSETS=%WORKSPACE%\Hunting\Assets
 set CONF_ROOT=.
 set LUBAN_DLL=%CONF_ROOT%\Tools\Luban\Luban.dll
 set DATA_OUTPATH=%CLIENT_ASSETS%\Resources\Bundle\Raw\Configs\bytes\
