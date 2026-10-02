@@ -8,7 +8,7 @@
 |---|---|
 | `Datas/` | 配表源文件。20 张数据表，外加 3 张 schema 表：`__tables__.xlsx`、`__beans__.xlsx`、`__enums__.xlsx` |
 | `Defines/` | `builtin.xml`，声明 `vector2`、`vector3`、`vector4` 三个内建结构 |
-| `Tools/Luban/` | Luban 4.2.1 的发行文件。只保留 C# 二进制输出所需的模板与依赖（`Templates/cs-bin`、`Templates/common/cs`） |
+| `Tools/Luban/` | Luban 4.2.1 的发行文件，上游为 [focus-creative-games/luban](https://github.com/focus-creative-games/luban)。只保留 C# 二进制输出所需的模板与依赖（`Templates/cs-bin`、`Templates/common/cs`） |
 | `output/code/` | 生成结果：C# 代码，66 个 `.cs` |
 | `output/bytes/` | 生成结果：二进制数据，每张表一个 `.bytes`，共 20 个 |
 | `luban.conf` | Luban 配置：schema 文件、数据目录、导出目标与分组 |
